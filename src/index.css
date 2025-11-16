@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png");
+  background-size: contain;
+  background-color: #f8fafc;
+}
