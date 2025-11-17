@@ -8,7 +8,7 @@ function App() {
   const [notes, setNotes] = useState([]);
   const [editingNote, setEditingNote] = useState(null);
   const [showForm, setShowForm] = useState(false);
-  const [activeTab, setActiveTab] = useState("all"); // which tab is active
+  const [activeTab, setActiveTab] = useState("all"); 
 
   useEffect(() => {
     setNotes(getNotes());
@@ -62,10 +62,10 @@ function App() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('C:\Users\lenovo\Desktop\BCA 3 year\notes-app\public\IMG-20250403-WA0007[1].jpg')" }}
+        style={{ backgroundImage: "url('/public/backgroundimage.jpg')" }}
       ></div>
 
-      {/* Optional overlay for readability */}
+      
       <div className="absolute inset-0 bg-black opacity-20"></div>
 
       {/* Main content */}
